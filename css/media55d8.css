@@ -1,0 +1,279 @@
+/*1280 Screen Resolution */
+@media screen and (max-width: 1280px){
+
+  /*COLLECTION*/
+
+  /*#collection .box#bags .container .item img, 
+  #collection .box#models .container .item img {
+    margin-top: -240px;
+    height: 480px;
+  }*/
+
+  #collection .box#bags .container .item .content, 
+  #collection .box#models .container .item .content {
+    margin-top: -240px;
+    height: 480px;
+  }
+
+  #collection .box#bags .container .item .content img, 
+  #collection .box#models .container .item .content img {
+    height: 480px;
+  }
+
+  #collection .box#bag-switcher {
+    height:470px;
+  }
+
+  #collection .box#bag-switcher .button {
+    margin: 5px 0px;
+  }
+
+  #collection .actions {
+    margin-top: 10px;
+  }
+
+  #collection .box#bags .container .item .content { left: 10%; }
+  #collection .box#models .container .item .content { right: 10%; }
+  
+  #collection .box#bags .container .item .content form {
+    top: -30px;
+  }
+  
+  #informations{
+    margin-top:45px;
+  }
+
+  /*#collection .box#bags .container .item img{
+    left:10%;
+  }
+
+  #collection .box#models .container .item img {
+    right:10%;
+  }*/
+
+  /*STANDARD*/
+
+  .standard .photo img {
+    width: 78%;
+  }
+
+}
+
+/* 650px height Screen Resolution */
+
+@media screen and (max-height: 650px){
+
+  /*HEADER*/
+
+  #header .inview .content img{
+    width: 150px;
+  }
+
+  /*FOOTER*/
+
+  #footer .content{
+    width:840px;
+  }
+
+  /*HOME*/
+
+  #rotation .popup .item {
+    background-size: 70%;
+  }
+
+  #rotation .container .bag-angle {
+    background-size: 45%;
+  }
+
+  #payoffs #payoff1.payoff-item .payoff-bg-text {
+    bottom: 15%;
+    right: 5%;
+    width: 260px;
+  }
+
+  #payoffs #payoff2.payoff-item .payoff-bg-text {
+    top: 22%;
+    right: 6%;
+    width: 280px;
+  }
+
+  #payoffs #payoff3.payoff-item .payoff-bg-text {
+    bottom: 20%;
+    left: 10%;
+    width: 295px;
+  } 
+
+  #about .about-item .text h1 {
+    font-size: 50px;
+    letter-spacing: -3px;
+  }
+
+  #about .about-item .text p {
+    margin: 12px 0;
+  }
+
+  #about .about-item .photo {
+    margin-right: 98px;
+  }
+
+  #about .about-item .photo img{
+    height: 380px;
+  }
+
+  #about .about-item#manufacture .bg-switcher {
+    top:100px;
+  }
+
+  #end{
+    background-size: 30%;
+  }
+
+  #end h1 a {
+    font-size: 20px;
+  }
+
+  #end h1 a span {
+    font-size: 70px;
+  }
+
+  /*COLLECTION*/
+
+  /*#collection .box#bags .container .item img, 
+  #collection .box#models .container .item img {
+    margin-top: -195px;
+    height: 390px;
+  }*/
+
+  #collection .box#bags .container .item .content, 
+  #collection .box#models .container .item .content {
+    margin-top: -195px;
+    height: 390px;
+  }
+
+  #collection .box#bags .container .item .content img, 
+  #collection .box#models .container .item .content img {
+    height: 390px;
+  }
+
+  #collection .box#bag-switcher .button {
+    margin: -17px 0px;
+  }
+
+  #collection .actions #carts {
+    top: 35px;
+  }
+
+  #collection .actions {
+    margin-top: 24px;
+  }
+
+  /*#collection .box#bags .container .item img{
+    left:30%;
+  }
+
+  #collection .box#models .container .item img {
+    right:30%;
+  }*/
+  
+  #collection .box#bags .container .item .content form {
+    top: -10px;
+  }
+
+  #collection .box#bags .container .item .content{
+    left:30%;
+  }
+
+  #collection .box#models .container .item .content {
+    right:30%;
+  }
+
+  #collection .box#bag-switcher {
+    height: 315px;
+  }
+
+  #informations{
+    width: 225px;
+    margin-left: -83px;
+  }
+
+  #informations a{
+    margin: 2px;
+    border-radius: 5px;
+    border: 1px solid #A8A8A8;
+  }
+
+  /*STANDARD*/
+
+  .standard .content{
+    width:840px;
+  }
+
+  .standard .abs-container {
+    height: 318px;
+  }
+
+  .standard .photo img {
+    width: 78%;
+  }
+
+  .standard h1 {
+    font-size: 45px;
+    letter-spacing: -3px;
+  }
+
+  .standard .photo {
+    text-align: center;
+    width: 350px;
+  }
+
+  .standard .photo img {
+    width: 75%;
+  }
+
+  #contacts form textarea, #contacts form input {
+    padding: 5px;
+    font-size: 13px;
+    margin: 3px 0px;
+  }
+
+  #contacts form input[type="submit"] {
+    margin-right: 9px;
+  }
+
+  #contacts form p {
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 10px;
+  }
+
+  #intro-mouse{
+    bottom:1%;
+  }
+
+  #end .share{
+    top: 23%;
+  }
+
+  #ipad-link{
+    margin-top: 30px;
+    font-size: 14px;
+  }
+
+  #ipad-link span{
+    font-size: 16px;
+  }
+
+  #ipad-home{
+    top:50px;
+  }
+  
+  #awwwards{
+    top:83px;
+  }
+  
+  #bookmark{
+    top: auto;
+    bottom:50px;
+  }
+
+}
